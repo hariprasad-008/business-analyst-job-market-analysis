@@ -19,7 +19,7 @@ located using the advertised job_location field.
 - `Cleaned Dataset/` : analysis-ready output files:
   - `ba_refined_postings_final.csv` : one row per job posting (8,610 rows)
   - `ba_refined_skills_final.csv` : one row per individual skill, linked via `job_link`
-    (226,269 rows; provided as a zip due to GitHub's upload size limit — unzip before use)
+    (226,269 rows; provided as a zip due to GitHub's upload size limit, unzip before use)
 - `Tableau Files/` : each group member's `.twbx` visualisation workbook
 
 ## How to reproduce
