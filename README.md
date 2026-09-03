@@ -13,18 +13,18 @@ located using the advertised job_location field.
 
 ## Repository structure
 
-- `SQL Queries/` — SQL queries used to define and validate the analytical population
-- `Python Notebook/` — Jupyter notebook (data-analysis.ipynb) covering data cleaning, population
+- `SQL Queries/` : SQL queries used to define and validate the analytical population
+- `Python Notebook/` : Jupyter notebook (data-analysis.ipynb) covering data cleaning, population
   validation, role classification, skill normalisation, and geographic extraction
-- `Cleaned Dataset/` — analysis-ready output files:
-  - `ba_refined_postings_final.csv` — one row per job posting (8,610 rows)
-  - `ba_refined_skills_final.csv` — one row per individual skill, linked via `job_link`
+- `Cleaned Dataset/` : analysis-ready output files:
+  - `ba_refined_postings_final.csv` : one row per job posting (8,610 rows)
+  - `ba_refined_skills_final.csv` : one row per individual skill, linked via `job_link`
     (226,269 rows; provided as a zip due to GitHub's upload size limit — unzip before use)
-- `Tableau Files/` — each group member's `.twbx` visualisation workbook
+- `Tableau Files/` : each group member's `.twbx` visualisation workbook
 
 ## How to reproduce
 
-1. Raw source data is not included here due to size - download it from the Kaggle
+1. Raw source data is not included here due to size, download it from the Kaggle
    link above if you need to run the cleaning process from scratch.
 2. Run the notebook in `python/` to reproduce the cleaning, population definition, and
    analysis, or refer to the queries in `sql/` for the parallel SQL-based approach.
